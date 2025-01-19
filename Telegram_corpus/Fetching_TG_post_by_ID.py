@@ -10,7 +10,7 @@ phone = 'add_yours'
 username = 'add_yours'
 
 # Load channel and post IDs from CSV file
-channel_data = pd.read_csv('corpus_full.csv') # provided in this repository
+channel_data = pd.read_csv('corpus_id_only.csv') # provided in this repository
 #channel_data = channel_data[:100] # uncomment this if you want to test this with a smaller portion first
 
 # Initialize lists to store fetched data
